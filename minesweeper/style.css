@@ -1,0 +1,23 @@
+td {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(191, 224, 254);
+  border: 1px solid blue;
+  text-align: center;
+}
+
+td:hover:not(.bomb) {
+  background-color: rgb(240, 240, 255);
+}
+
+.uncover {
+  background-color: white;
+}
+
+.bomb {
+  background-color: red;
+}
+
+#gameOver {
+  font-size: 50px;
+}
